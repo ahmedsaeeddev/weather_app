@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-repeat: repeat;
+    background-size: contain;
+    background: rgb(0, 35, 255);
+    background: linear-gradient(50deg, rgba(0, 35, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.main {
+    width: 300px;
+    margin: auto;
+    height: 550px;
+    margin: 23px auto;
+    background: rgb(0, 35, 255);
+    background: linear-gradient(50deg, rgba(0, 35, 255, 1) 0%, rgba(0, 212, 255, 1) 90%);
+    border: 8px solid white;
+    border-radius: 18px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 31px;
+}
+
+.main .container-fluid .main {
+    border: none;
+    background: transparent;
+    height: 0;
+}
+
+
+
+form input {
+    padding: 12px 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 252, 255);
+    width: 250px;
+    border-radius: 50px;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form img {
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+
+.main_area {
+    padding: 22px;
+    font-family: arial;
+}
+
+.Date {
+    margin: 10px 0;
+}
+
+.weather{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.weather h1 {
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.main_area img {
+    width: 70px;
+    height: 70px;
+}
+
+body {color: white;}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00A7FF;
+    margin: 10px 0;
+    border: 2px solid white;
+    color: white;
+    padding: 7px;
+    border-radius: 14px;
+
+}
+
+.div1 {
+    display: flex;
+    margin-left: -28px;
+    align-items: center;
+}
+
+.myDiv1 {
+    margin-left: -45px;
+}
+
+.div2.myDiv2 {
+    margin-right: -18px;
+}
+
+.div1 img {
+    width: 35px;
+    height: 35px;
+    margin: 0 4px;
+}
+
+.area {
+    margin-top: 33px;
+}
